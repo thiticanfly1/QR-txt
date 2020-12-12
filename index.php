@@ -20,9 +20,7 @@
                 const queryString = decodeURIComponent(window.location.search)
                 const params = new URLSearchParams(queryString)
                 if (params.get("params") !== null) {
-                    document.getElementsByTagName {
-                        "h1"
-                    }[0].innerHTML = params.get("param")
+                    document.getElementsByTagName("H1")[0].innerHTML = params.get("param")
                 }
             }
             main()
