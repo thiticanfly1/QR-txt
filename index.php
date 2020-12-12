@@ -9,7 +9,7 @@
     <body>
         <H1>HELLO 1</H1>
         <button id="btnQR" onclick="window.location='https://line.me/R/nv/QRCodeReader'">OPEN QR READER</button>
-        <script src="https://static.line.scdn.net/liff/edge/versions/2.4.0/sdk.js"></script>
+        <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
         <script>
             anync
 
