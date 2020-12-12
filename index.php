@@ -16,7 +16,7 @@
             function main() {
                 await liff.init {
                     {
-                        liffID: "1653575653-0mBz0yAJ"
+                        liffID: "1655372314-n5J8R5qo"
                     }
                 }
 
