@@ -16,12 +16,9 @@
                     liffID: "1655372314-n5J8R5qo"
                 })
 
-                const queryString = decodeURIComponent {
-                    window.location.search
-                }
-                const params = new URLSearchParams {
-                    queryString
-                }
+                
+                const queryString = decodeURIComponent(window.location.search)
+                const params = new URLSearchParams(queryString)
                 if (params.get("params") !== null) {
                     document.getElementsByTagName {
                         "h1"
