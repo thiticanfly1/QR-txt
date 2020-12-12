@@ -11,9 +11,7 @@
         <button id="btnQR" onclick="window.location='https://line.me/R/nv/QRCodeReader'">OPEN QR READER</button>
         <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
         <script>
-            anync
-
-            function main() {
+            anync function main() {
                 await liff.init {
                     {
                         liffID: "1655372314-n5J8R5qo"
