@@ -12,11 +12,10 @@
         <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
         <script>
             async function main() {
-                await liff.init ({
+                await liff.init({
                     liffID: "1655372314-n5J8R5qo"
                 })
 
-                
                 const queryString = decodeURIComponent(window.location.search)
                 const params = new URLSearchParams(queryString)
                 if (params.get("params") !== null) {
