@@ -13,7 +13,7 @@
         <script>
             async function main() {
                 await liff.init({
-                    liffID: "1655372314-n5J8R5qo"
+                    liffId: "1655372314-n5J8R5qo"
                 })
 
                 const queryString = decodeURIComponent(window.location.search)
